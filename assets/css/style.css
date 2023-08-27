@@ -1,0 +1,134 @@
+body,
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "header header header header header header header header header header header header header"
+    "menu main main main main main main main main main main main main"
+    "footer footer footer footer footer footer footer footer footer footer footer footer footer";
+}
+
+header {
+  grid-area: header;
+  background-color: #28547c;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50pt;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+}
+menu {
+  grid-area: menu;
+  background-color: #e7e7e7;
+  padding: 25px;
+  
+}
+
+.category {
+  
+    color: #282a2e;
+font-size: 20pt;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bolder;
+margin-bottom: 10px;
+}
+
+.filtro{
+display: flex;
+align-items: center;
+margin-bottom: 3px;
+
+
+}
+.pafiumu{
+
+    color: #45474a;
+    font-size: 14pt;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 100;
+margin-right: 3px;
+
+}
+
+.number{
+
+    color: #6b6f74;
+    font-size: 10pt;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 100;
+
+}
+.cuerpo{
+display: flex;
+align-items: center;
+flex-direction: column;
+background-color: #ffffff;
+
+
+
+}
+.cuerpo img{
+height: 300px;
+width: 300px ;
+
+}
+
+.productos{
+    color: #282a2e;
+    font-size: 20pt;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-bottom: 10px;
+
+}
+
+.precios{
+    color: #202122;
+    font-size: 14pt;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 100;
+margin-right: 3px;
+margin-bottom: 15pt;
+}
+
+.boton{
+width: 100%;
+height: 40px;
+background-color: #28547c;
+border: none;
+outline: none;
+cursor: pointer;
+color: white;
+text-align: center;
+font-size: 15pt;
+}
+
+main {
+  grid-area: main;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 15px;
+  gap: 15px;
+  background-color: #e7e7e7;
+  
+
+  
+  
+}
+footer {
+  grid-area: footer;
+  background-color: #ffffff;
+  color: #6b6f74;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50pt;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+}
