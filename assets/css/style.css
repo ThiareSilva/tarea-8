@@ -131,4 +131,13 @@ footer {
   height: 50pt;
   font-size: larger;
   font-family: Arial, Helvetica, sans-serif;
+
+ 
 }
+ a {
+    text-decoration: none;
+  }
+  a:hover{
+    color: #28547c;
+    background-color: #e7e7e7;
+  }
